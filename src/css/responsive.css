@@ -1,0 +1,88 @@
+
+/* Fida Marwat (Sr. UXUI and Front End Developer) */
+
+/* first media query for mobile responsiveness */
+
+@media(max-width:767px){
+
+    .navbar-nav{
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        border-radius: 12px;
+        padding: 12px 12px !important;
+    }
+
+    .dropdown-menu {
+        overflow-y: auto;
+        max-height: 50vh;
+        top: 50px !important;
+    }
+
+    .custom-d-none{
+        display: none;
+    }
+
+    .w-25.card,
+    div.w-25{
+        width: 100% !important;
+    }
+
+    .download-roi-guide-img {
+        width: 100% !important;
+    }
+
+    .footer .card-title{
+        margin-top: 24px;
+    }
+
+    .bg-custom-gradient{
+        padding: 0px 0px 50px 0px;
+        background-size: cover;
+    }
+
+    .custom-pt-pb-5{
+        padding: 50px 0px;
+    }
+
+    .custom-pt-pb-5l{
+        padding: 50px 0px;
+    }
+
+    #section{
+        margin-top: 70px;
+    }
+
+    .performer{
+        background-image: none !important;
+        background-color: #A9EDFF !important;
+    }
+
+    br{
+        display: none;
+    }
+
+    .icon-circle{
+        margin: 0px auto 0px auto;
+    }
+    
+    .custom-center{
+        text-align: center;
+    }
+
+    #scrollspyNav .btn-secondary{
+        margin: 8px;
+    }
+
+    .diverse-card .card{
+        height: auto !important;
+        margin: 12px 0px !important;
+    }
+
+    .custom-integration-btns .btn{
+        margin: 8px;
+    }
+
+    .audit-prep-banner-img,
+    .home-banner-img{
+        display: none;
+    }
+}

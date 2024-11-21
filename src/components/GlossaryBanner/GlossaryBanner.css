@@ -1,0 +1,11 @@
+#scrollspyNav .active{
+    background-color: #2F73B0 !important;
+    border-color: #2F73B0 !important;
+    color: #fff !important;
+}
+
+#scrollspyNav .btn-secondary:hover{
+    background-color: #2F73B0 !important;
+    border-color: #2F73B0 !important;
+    color: #fff !important;
+}

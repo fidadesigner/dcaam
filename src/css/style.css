@@ -1,0 +1,174 @@
+
+/* Fida Marwat (Sr. UXUI and Front End Developer) */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700 !important;
+    font-size: 36px !important;
+    line-height: 48px !important;
+    color: rgba(0, 0, 0, 0.9) !important;
+
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700 !important;
+    font-size: 28px !important;
+    line-height: 72px !important;
+    color: rgba(0, 0, 0, 0.9) !important;
+}
+
+h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    line-height: 28px !important;
+    color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.container-fluid{
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
+
+.nav-link{
+    color: rgba(0, 0, 0, 0.9) !important;
+
+    &:hover{
+        color: #2F73B0 !important;
+    }
+}
+
+.btn-primary{
+    background-color: #2F73B0 !important;
+    border-color: #2F73B0 !important;
+
+    &:hover{
+        background-color: #1d7acd !important;
+        border-color: #1d7acd !important;
+    }
+}
+
+.btn-secondary{
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    border-color: rgba(0, 0, 0, 0.1) !important;
+    color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.btn-info{
+    background-color: #A9EDFF !important;
+    border-color: #A9EDFF !important;
+
+    &:hover{
+        background-color: #0dcaf0 !important;
+        border-color: #0dcaf0 !important;
+    }
+}
+
+.btn-outline-info{
+    background-color: #fff !important;
+    border-color: rgba(0, 0, 0, 0.9) !important;
+    color: rgba(0, 0, 0, 0.9) !important;
+
+    &:hover{
+        background-color: #A9EDFF !important;
+        border-color: #A9EDFF !important;
+        color: rgba(0, 0, 0, 0.9) !important;
+    }
+}
+
+.btn-outline-secondary{
+    background-color: #fff !important;
+    border-color: rgba(0, 0, 0, 0.9) !important;
+    color: rgba(0, 0, 0, 0.9) !important;
+
+    &:hover{
+        background-color: rgba(0, 0, 0, 0.9) !important;
+        border-color: rgba(0, 0, 0, 0.9) !important;
+        color: #fff !important;
+    }
+}
+
+.navbar-nav{
+    border: 1px solid rgba(0, 0, 0, 0.9);
+    border-radius: 100px;
+    padding: 0px 12px !important;
+    align-items: center;
+}
+
+.card-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+    line-height: 36px !important;
+    color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.text-primary{
+    color: #1d7acd !important;
+}
+
+.text-secondary{
+    color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.bg-primary{
+    background-color: #2F73B0 !important;
+}
+
+.bg-grey{
+    background-color: rgba(0, 0, 0, 0.05) !important;
+}
+
+.rounded-pill{
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+}
+
+.logo{
+    width: 80px;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.bg-custom-gradient{
+    padding: 0px 0px 70px 0px;
+}
+
+.custom-pt-pb-5{
+    padding: 70px 0px;
+}
+
+.custom-pt-pb-5l{
+    padding: 100px 0px;
+}
+
+#section{
+    margin-top: 100px;
+}
+
+/* placeholder color changes */
+
+input::-webkit-input-placeholder { 
+    color: rgba(0, 0, 0, 0.5) !important;
+  }
+  
+  input:-ms-input-placeholder { 
+    color: rgba(0, 0, 0, 0.5) !important;
+  }
+  
+  input::-ms-input-placeholder { 
+    color: rgba(0, 0, 0, 0.5) !important;
+  }
+  

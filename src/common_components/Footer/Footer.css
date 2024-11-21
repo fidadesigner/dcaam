@@ -1,0 +1,11 @@
+.footer-links a{
+    line-height: 36px;
+
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+i{
+    font-size: 20px;
+}

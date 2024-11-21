@@ -1,0 +1,51 @@
+.card{
+    border-color: rgba(0, 0, 0, 0.3) !important;
+    border-radius: 12px !important;
+
+    .card-title{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700 !important;
+        font-size: 24px !important;
+        line-height: 36px !important;
+        color: rgba(0, 0, 0, 0.8) !important;
+    }
+
+    .card-text{
+        font-family: 'Roboto', sans-serif;
+        color: rgba(0, 0, 0, 1) !important;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .icon-circle{
+        width: 70px;
+        height: 70px;
+        border-radius: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #2F73B0;
+        color: #fff;
+        margin: 0px auto 24px auto;
+        
+        i{
+            font-size: 36px;
+        }
+    }
+
+    &:hover{
+        background-color: #2F73B0;
+        border-color: #2F73B0 !important;
+
+        .card-title,
+        .card-text{
+            color: #fff !important;
+        }
+
+        .icon-circle{
+            background-color: #fff;
+            color: #2F73B0;
+        }
+    }
+}
+

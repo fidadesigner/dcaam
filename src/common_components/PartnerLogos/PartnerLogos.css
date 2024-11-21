@@ -1,0 +1,7 @@
+/* first media query for mobile responsiveness */
+
+@media(max-width:767px){
+    .customd-d-none{
+        display: none !important;
+    }
+}

@@ -1,0 +1,8 @@
+.guide-card:hover{
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    border-color: rgba(0, 0, 0, 0.1) !important;
+
+    .card-title{
+        color: #1d7acd !important;
+    }
+}

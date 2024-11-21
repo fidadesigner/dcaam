@@ -1,0 +1,4 @@
+.integration-card .bg-grey:hover{
+    background-color: #fff !important;
+    border-color: rgba(0, 0, 0, 0.3) !important;
+}

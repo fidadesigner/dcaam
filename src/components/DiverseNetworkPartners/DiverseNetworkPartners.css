@@ -1,0 +1,14 @@
+.diverse-card .card{
+    margin: 0px 12px;
+    height: 100%;
+
+    .card-body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .card-title{
+            margin-bottom: 0px;
+        }
+    }
+}

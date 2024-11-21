@@ -1,0 +1,15 @@
+.ciso-card{
+
+    .list-group{
+
+        margin-left: 12px;
+        
+        .list-group-item{
+            text-indent: -30px;
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+    }
+
+}
+
+

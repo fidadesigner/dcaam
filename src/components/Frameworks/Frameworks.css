@@ -1,0 +1,17 @@
+.framework-icon{
+    margin-bottom: 24px;
+}
+
+.border-top-0{
+    border-top-width: 0px;
+}
+
+.border-bottom-0{
+    border-bottom-width: 0px;
+}
+
+.card:hover{
+    .btn-link{
+        color: #fff;
+    }
+}

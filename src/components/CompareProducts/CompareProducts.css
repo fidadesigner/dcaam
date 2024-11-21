@@ -1,0 +1,19 @@
+.product-card{
+
+    &:hover{
+        background-color: rgba(0, 0, 0, 0.05) !important;
+        border-color: rgba(0, 0, 0, 0.3) !important;
+    }
+
+    .list-group{
+
+        margin-left: 12px;
+        
+        .list-group-item{
+            text-indent: -30px;
+        }
+    }
+
+}
+
+

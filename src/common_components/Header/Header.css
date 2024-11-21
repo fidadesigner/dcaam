@@ -1,0 +1,25 @@
+.dropdown-menu {
+    width: 100% !important;
+    position: fixed !important;
+    top: 79px !important;
+    border-radius: 0px !important;
+    border-top: 0px solid red !important;
+    border-left: 0px solid red !important;
+    border-right: 0px solid red !important;
+    border-bottom: 1px solid #ccc !important;
+    padding-top: 24px !important;
+    padding-bottom: 36px !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+
+    .custom-link{
+      color: rgba(0, 0, 0, 0.9) !important;
+  
+      &:hover{
+          color: #2F73B0 !important;
+      }
+    }
+  }
+
+
+
+  
