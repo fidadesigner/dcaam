@@ -1,6 +1,6 @@
 {
   "homepage": "https://fidadesigner.github.io/dcaam",
-  "name": "DCAAM",
+  "name": "dcaam",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
