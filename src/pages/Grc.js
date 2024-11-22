@@ -1,5 +1,5 @@
 import React from "react";
-import GrcBanner from "../css/GrcBanner/GrcBanner";
+import GrcBanner from "../components/GrcBanner/GrcBanner";
 import IncreaseEfficiency from "../components/IncreaseEfficiency/IncreaseEfficiency";
 import UnblockInfoSec from "../components/UnblockInfoSec/UnblockInfoSec";
 import InfoSecAndComplianceAutomation from "../components/InfoSecAndComplianceAutomation/InfoSecAndComplianceAutomation";
