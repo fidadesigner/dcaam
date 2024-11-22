@@ -34,11 +34,11 @@ function ContactForm() {
                                     <Form.Control size="lg" type="text" placeholder="Enter phone number" />
                                 </Form.Group>
                                 <Form.Group className="mb-3 col-md-6" controlId="company_name">
-                                    <Form.Label>Copany Name</Form.Label>
+                                    <Form.Label>Company Name</Form.Label>
                                     <Form.Control size="lg" type="text" placeholder="Enter company name" />
                                 </Form.Group>
                                 <Form.Group className="mb-3 col-md-6" controlId="company_size">
-                                    <Form.Label>Copany Size</Form.Label>
+                                    <Form.Label>Company Size</Form.Label>
                                     <Form.Control size="lg" type="text" placeholder="Enter company size" />
                                 </Form.Group>
                                 <Form.Label className="mt-4"><strong>Where did you hear about us?</strong></Form.Label>

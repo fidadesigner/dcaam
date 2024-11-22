@@ -17,8 +17,7 @@ function HomeBanner() {
                 <Row className="align-items-center">
                     <Col xs={12} sm={12} md={6} className="custom-center">
                         <h1>GRC Your Way</h1>
-                        <p>Xyber is a cutting-edge cybersecurity service designed to safeguard businesses 
-                        and individuals from the ever-growing array of online threats.</p>
+                        <p>A unified, flexible GRC platform helping you reduce risk, <br />stay compliant, and drive growth.</p>
                         <div className="mt-5">
                             <Button variant="primary" className="me-2" onClick={handleShow}>Request Demo</Button>
                             <Button variant="outline-secondary" className="ms-2">Learn More</Button>
