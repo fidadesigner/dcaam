@@ -172,6 +172,6 @@ input::-webkit-input-placeholder {
     color: rgba(0, 0, 0, 0.5) !important;
   }
   
-.test{
-    display: none;
-}
+  .fida{
+    color: red;
+  }
