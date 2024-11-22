@@ -37,6 +37,20 @@ function Header() {
         }));
     };
 
+    const closeDropdownMenu = (dropdownName) => {
+        setShowDropdown((prevState) => ({
+            ...prevState,
+            [dropdownName]: false,
+        }));
+    };
+
+    const showDropdownMenu = (dropdownName) => {
+        setShowDropdown((prevState) => ({
+            ...prevState,
+            [dropdownName]: true,
+        }));
+    };
+
     const handleLinkClick = () => {
         setShowDropdown(
             {
@@ -65,8 +79,10 @@ function Header() {
                         <Nav className="m-auto my-2 my-lg-0" navbarScroll>
                             <NavDropdown 
                                 title={
-                                    <>
-                                        Solutions<i class="ri-arrow-down-s-line"></i>
+                                    < > 
+                                        <span onClick={() => showDropdownMenu("solutions")}>
+                                            Solutions<i class="ri-arrow-down-s-line"></i>
+                                        </span>
                                     </>
                                 } 
                                 id="navbarScrollingDropdown"
@@ -76,6 +92,11 @@ function Header() {
                                 
                                 >
                                 <Container fluid>
+                                    <Button variant="link" className="text-decoration-none custom-close-btn d-md-none d-block"
+                                        onClick={() => closeDropdownMenu("solutions")}
+                                    >
+                                        <i class="ri-close-line"></i>
+                                    </Button>
                                     <Row>
                                         <Col md={3}>
                                             <Row>
@@ -171,7 +192,9 @@ function Header() {
                             <NavDropdown 
                                 title={
                                     <>
-                                        Frameworks<i class="ri-arrow-down-s-line"></i>
+                                        <span onClick={() => showDropdownMenu("frameworks")}>
+                                            Frameworks<i class="ri-arrow-down-s-line"></i>
+                                        </span>
                                     </>
                                 } 
                                 id="navbarScrollingDropdown"
@@ -180,6 +203,11 @@ function Header() {
                                 onMouseLeave={() => handleMouseLeave("frameworks")}
                                 >
                                 <Container fluid>
+                                    <Button variant="link" className="text-decoration-none custom-close-btn d-md-none d-block"
+                                        onClick={() => closeDropdownMenu("frameworks")}
+                                    >
+                                        <i class="ri-close-line"></i>
+                                    </Button>
                                     <Row>
                                         <Col md={12}>
                                             <h5 className="card-title mb-4 text-primary">Frameworks</h5>
@@ -264,7 +292,9 @@ function Header() {
                             <NavDropdown 
                                 title={
                                     <>
-                                        Resources<i class="ri-arrow-down-s-line"></i>
+                                        <span onClick={() => showDropdownMenu("resources")}>
+                                            Resources<i class="ri-arrow-down-s-line"></i>
+                                        </span>
                                     </>
                                 } 
                                 id="navbarScrollingDropdown"
@@ -273,6 +303,11 @@ function Header() {
                                 onMouseLeave={() => handleMouseLeave("resources")}
                                 >
                                 <Container fluid>
+                                    <Button variant="link" className="text-decoration-none custom-close-btn d-md-none d-block"
+                                        onClick={() => closeDropdownMenu("resources")}
+                                    >
+                                        <i class="ri-close-line"></i>
+                                    </Button>
                                     <Row>
                                         <Col md={12}>
                                             <h5 className="card-title mb-4 text-primary">Resources</h5>
@@ -335,7 +370,9 @@ function Header() {
                             <NavDropdown 
                                 title={
                                     <>
-                                        Company<i class="ri-arrow-down-s-line"></i>
+                                        <span onClick={() => showDropdownMenu("company")}>
+                                            Company<i class="ri-arrow-down-s-line"></i>
+                                        </span>
                                     </>
                                 } 
                                 id="navbarScrollingDropdown"
@@ -344,6 +381,11 @@ function Header() {
                                 onMouseLeave={() => handleMouseLeave("company")}
                                 >
                                 <Container fluid>
+                                    <Button variant="link" className="text-decoration-none custom-close-btn d-md-none d-block"
+                                        onClick={() => closeDropdownMenu("company")}
+                                    >
+                                        <i class="ri-close-line"></i>
+                                    </Button>
                                     <Row>
                                         <Col md={12}>
                                             <h5 className="card-title mb-4 text-primary">Company</h5>

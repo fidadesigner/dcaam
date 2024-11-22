@@ -11,10 +11,16 @@
         padding: 12px 12px !important;
     }
 
-    .dropdown-menu {
+    body .dropdown-menu {
         overflow-y: auto;
-        max-height: 50vh;
-        top: 50px !important;
+        max-height: 100vh;
+        top: 0px !important;
+    }
+
+    h1{
+        font-size: 24px !important;
+        line-height: 36px !important;
+    
     }
 
     .custom-d-none{

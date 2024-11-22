@@ -18,7 +18,19 @@
           color: #2F73B0 !important;
       }
     }
+
+    .custom-close-btn{
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      color: rgba(0, 0, 0, 0.9) !important;
+
+      i{
+        font-size: 36px;
+      }
+    }
   }
+
 
 
 
