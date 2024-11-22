@@ -27,13 +27,13 @@ function DemoForm() {
                             <Form.Control size="lg" type="text" placeholder="Enter phone number" />
                         </Form.Group>
                         <Form.Group className="mb-3 col-md-6" controlId="company_name">
-                            <Form.Label>Copany Name</Form.Label>
+                            <Form.Label>Company Name</Form.Label>
                             <Form.Control size="lg" type="text" placeholder="Enter company name" />
                         </Form.Group>
                         <Form.Group className="mb-3 col-md-6" controlId="company_size">
-                            <Form.Label>Copany Size</Form.Label>
+                            <Form.Label>Company Size</Form.Label>
                             <Form.Select size="lg" aria-label="company size">
-                                <option>--Select Copany Size--</option>
+                                <option>--Select Company Size--</option>
                                 <option value="1">0-50</option>
                                 <option value="2">51-100</option>
                                 <option value="3">101-200</option>
