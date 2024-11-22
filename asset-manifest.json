@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/dcaam/static/css/main.683b8565.css",
+    "main.js": "/dcaam/static/js/main.bcf478c0.js",
+    "static/js/453.a4b2ef8d.chunk.js": "/dcaam/static/js/453.a4b2ef8d.chunk.js",
+    "static/media/remixicon.svg?t=1730118419915": "/dcaam/static/media/remixicon.0551ce0fd52a1a7b1230.svg",
+    "static/media/remixicon.eot?t=1730118419915": "/dcaam/static/media/remixicon.918a6e24637af868f0ae.eot",
+    "static/media/remixicon.ttf?t=1730118419915": "/dcaam/static/media/remixicon.13d81601cf448c068ce1.ttf",
+    "static/media/remixicon.woff?t=1730118419915": "/dcaam/static/media/remixicon.442ee771ea7ae5b713e4.woff",
+    "static/media/bootstrap-icons.woff?": "/dcaam/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/remixicon.woff2?t=1730118419915": "/dcaam/static/media/remixicon.11bc908555df35c11b24.woff2",
+    "static/media/bootstrap-icons.woff2?": "/dcaam/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "index.html": "/dcaam/index.html",
+    "main.683b8565.css.map": "/dcaam/static/css/main.683b8565.css.map",
+    "main.bcf478c0.js.map": "/dcaam/static/js/main.bcf478c0.js.map",
+    "453.a4b2ef8d.chunk.js.map": "/dcaam/static/js/453.a4b2ef8d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.683b8565.css",
+    "static/js/main.bcf478c0.js"
+  ]
+}
