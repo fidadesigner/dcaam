@@ -4,7 +4,7 @@ import "./IntegrationPartners.css";
 
 function IntegrationPartners() {
     
-    const assetPath = process.env.REACT_APP_ASSET_BASE_URL || '/assets/';
+    const assetPath = process.env.REACT_APP_ASSET_BASE_URL || '/dcaam/assets/';
     const [activeTab, setActiveTab] = useState('All');
 
     return (

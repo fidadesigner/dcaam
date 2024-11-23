@@ -4,7 +4,7 @@ import DemoForm from "../../common_components/DemoForm/DemoForm";
 
 function AuditBanner() {
 
-    const assetPath = process.env.REACT_APP_ASSET_BASE_URL || '/assets/';
+    const assetPath = process.env.REACT_APP_ASSET_BASE_URL || '/dcaam/assets/';
 
     const [show, setShow] = useState(false);
 

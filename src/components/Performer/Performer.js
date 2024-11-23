@@ -4,7 +4,7 @@ import './Performer.css';
 
 function Performer() {
 
-    const assetPath = process.env.REACT_APP_ASSET_BASE_URL || '/assets/';
+    const assetPath = process.env.REACT_APP_ASSET_BASE_URL || '/dcaam/assets/';
     const bgImageUrl = `${assetPath}images/performer-bg-img1.jpg`;
 
     return(

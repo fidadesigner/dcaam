@@ -4,7 +4,7 @@ import './WhyJoinDcaam.css';
 
 function WhyJoinDcaam() {
 
-    const assetPath = process.env.REACT_APP_ASSET_BASE_URL || '/assets/';
+    const assetPath = process.env.REACT_APP_ASSET_BASE_URL || '/dcaam/assets/';
     const bgImageUrl = `${assetPath}images/join-bg-img.jpg`;
 
     return(

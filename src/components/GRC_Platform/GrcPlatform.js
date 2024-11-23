@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 function GrcPlatform() {
 
-    const assetPath = process.env.REACT_APP_ASSET_BASE_URL || '/assets/';
+    const assetPath = process.env.REACT_APP_ASSET_BASE_URL || '/dcaam/assets/';
 
     return(
         <>

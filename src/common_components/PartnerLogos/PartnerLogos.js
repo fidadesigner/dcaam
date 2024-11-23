@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './PartnerLogos.css';
 import { Container, Row, Col } from 'react-bootstrap';
 
-const assetPath = process.env.REACT_APP_ASSET_BASE_URL || '/assets/';
+const assetPath = process.env.REACT_APP_ASSET_BASE_URL || '/dcaam/assets/';
 
 const logos = [
  `${assetPath}images/partner-logo1.png`,
