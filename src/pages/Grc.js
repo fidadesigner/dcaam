@@ -9,7 +9,7 @@ import CompareProducts from "../components/CompareProducts/CompareProducts";
 
 function Grc() {
 
-    const assetPath = process.env.REACT_APP_ASSET_BASE_URL || '/assets/';
+    const assetPath = process.env.REACT_APP_ASSET_BASE_URL || '/dcaam/assets/';
     const bgImageUrl = `${assetPath}images/gradient-bg-img.jpg`;
 
     return(

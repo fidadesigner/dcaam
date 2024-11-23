@@ -4,7 +4,7 @@ import './AboutBanner.css';
 
 function AboutBanner() {
 
-    const assetPath = process.env.REACT_APP_ASSET_BASE_URL || '/assets/';
+    const assetPath = process.env.REACT_APP_ASSET_BASE_URL || '/dcaam/assets/';
 
     return(
         <> 

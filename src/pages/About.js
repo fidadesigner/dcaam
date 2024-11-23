@@ -6,7 +6,7 @@ import ParnerLogos from "../common_components/PartnerLogos/PartnerLogos";
 
 function About() {
 
-    const assetPath = process.env.REACT_APP_ASSET_BASE_URL || '/assets/';
+    const assetPath = process.env.REACT_APP_ASSET_BASE_URL || '/dcaam/assets/';
     const bgImageUrl = `${assetPath}images/gradient-bg-img.jpg`;
 
     return(

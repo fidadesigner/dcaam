@@ -4,7 +4,7 @@ import './OurLeadership.css';
 
 function OurLeadership() {
 
-    const assetPath = process.env.REACT_APP_ASSET_BASE_URL || '/assets/';
+    const assetPath = process.env.REACT_APP_ASSET_BASE_URL || '/dcaam/assets/';
     const bgImageUrl = `${assetPath}images/leadership-bg-img.jpg`;
 
 
