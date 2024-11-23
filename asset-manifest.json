@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dcaam/static/css/main.683b8565.css",
-    "main.js": "/dcaam/static/js/main.1cce54ec.js",
+    "main.js": "/dcaam/static/js/main.bf84830e.js",
     "static/js/453.473a31e8.chunk.js": "/dcaam/static/js/453.473a31e8.chunk.js",
     "static/media/remixicon.svg?t=1730118419915": "/dcaam/static/media/remixicon.0551ce0fd52a1a7b1230.svg",
     "static/media/remixicon.eot?t=1730118419915": "/dcaam/static/media/remixicon.918a6e24637af868f0ae.eot",
@@ -12,11 +12,11 @@
     "static/media/bootstrap-icons.woff2?": "/dcaam/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "index.html": "/dcaam/index.html",
     "main.683b8565.css.map": "/dcaam/static/css/main.683b8565.css.map",
-    "main.1cce54ec.js.map": "/dcaam/static/js/main.1cce54ec.js.map",
+    "main.bf84830e.js.map": "/dcaam/static/js/main.bf84830e.js.map",
     "453.473a31e8.chunk.js.map": "/dcaam/static/js/453.473a31e8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.683b8565.css",
-    "static/js/main.1cce54ec.js"
+    "static/js/main.bf84830e.js"
   ]
 }
