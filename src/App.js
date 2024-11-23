@@ -23,7 +23,7 @@ import HowItWork from './pages/HowItWork';
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/dcaam">
         <Header />
           <Routes>
             <Route path="/" element={<Home />} />
