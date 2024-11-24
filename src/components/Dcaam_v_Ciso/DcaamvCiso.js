@@ -15,7 +15,7 @@ function DcaamvCiso() {
             <section id="section">
                 <Container>
                     <Row className="align-items-center">
-                        <Col xs={12} sm={12} md={6}>
+                        <Col xs={12} sm={12} md={6} className="custom-center">
                             <h1>DCAAM vCISO Breakdown</h1>
                             <p>Our premier offering includes the Compyl Virtual CISO managed service. With access to our CISO suite, we will be the architects for the entire information security program by developing, managing, and implementing the organization’s complete security posture.</p>
                             <p>Finding a qualified CISO has proven challenging for many organizations due to a lack of available talent. With the average CISO salary costing well over $200,000/yr,organizations have found our vCISO value to rapidly mature and maintain a comprehensive security program tailored for their unique needs.</p>
