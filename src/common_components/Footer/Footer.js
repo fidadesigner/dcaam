@@ -46,16 +46,16 @@ function Footer() {
                             <div>
                                 <h5 className="card-title text-white mb-4">Frameworks</h5>
                                 <ListGroup variant="flush">
-                                    <ListGroup.Item className="bg-transparent text-white border-0 p-0" as={Link} to="/how-it-works">SOC 2</ListGroup.Item>
-                                    <ListGroup.Item className="bg-transparent text-white border-0 p-0" as={Link} to="/integration">ISO 27001</ListGroup.Item>
-                                    <ListGroup.Item className="bg-transparent text-white border-0 p-0" as={Link} to="/integration">HIPAA</ListGroup.Item>
-                                    <ListGroup.Item className="bg-transparent text-white border-0 p-0" as={Link} to="/integration">GDPR</ListGroup.Item>
-                                    <ListGroup.Item className="bg-transparent text-white border-0 p-0" as={Link} to="/integration">PCI</ListGroup.Item>
-                                    <ListGroup.Item className="bg-transparent text-white border-0 p-0" as={Link} to="/integration">NIST CSF</ListGroup.Item>
-                                    <ListGroup.Item className="bg-transparent text-white border-0 p-0" as={Link} to="/integration">NIST SP800-53</ListGroup.Item>
-                                    <ListGroup.Item className="bg-transparent text-white border-0 p-0" as={Link} to="/integration">MAS</ListGroup.Item>
-                                    <ListGroup.Item className="bg-transparent text-white border-0 p-0" as={Link} to="/integration">HITRUST</ListGroup.Item>
-                                    <ListGroup.Item className="bg-transparent text-white border-0 p-0" as={Link} to="/integration">See All Frameworks</ListGroup.Item>
+                                    <ListGroup.Item className="bg-transparent text-white border-0 p-0" as={Link} target="_blank" to="https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2">SOC 2</ListGroup.Item>
+                                    <ListGroup.Item className="bg-transparent text-white border-0 p-0" as={Link} target="_blank" to="https://www.iso.org/standard/27001">ISO 27001</ListGroup.Item>
+                                    <ListGroup.Item className="bg-transparent text-white border-0 p-0" as={Link} target="_blank" to="https://www.hhs.gov/hipaa/index.html">HIPAA</ListGroup.Item>
+                                    <ListGroup.Item className="bg-transparent text-white border-0 p-0" as={Link} target="_blank" to="https://commission.europa.eu/law/law-topic/data-protection/data-protection-eu_en">GDPR</ListGroup.Item>
+                                    <ListGroup.Item className="bg-transparent text-white border-0 p-0" as={Link} target="_blank" to="https://www.pcisecuritystandards.org/">PCI</ListGroup.Item>
+                                    <ListGroup.Item className="bg-transparent text-white border-0 p-0" as={Link} target="_blank" to="https://www.nist.gov/cyberframework">NIST CSF</ListGroup.Item>
+                                    <ListGroup.Item className="bg-transparent text-white border-0 p-0" as={Link} target="_blank" to="https://csrc.nist.gov/publications/sp800">NIST SP800-53</ListGroup.Item>
+                                    <ListGroup.Item className="bg-transparent text-white border-0 p-0" as={Link} target="_blank" to="https://www.mas.gov.sg/">MAS</ListGroup.Item>
+                                    <ListGroup.Item className="bg-transparent text-white border-0 p-0" as={Link} target="_blank" to="https://hitrustalliance.net/">HITRUST</ListGroup.Item>
+                                    <ListGroup.Item className="bg-transparent text-white border-0 p-0" as={Link} target="_blank" to="">See All Frameworks</ListGroup.Item>
                                 </ListGroup>
                             </div>
                             <div>
@@ -74,7 +74,6 @@ function Footer() {
                                 <ListGroup variant="flush">
                                     <ListGroup.Item className="bg-transparent text-white border-0 p-0" as={Link} to="/about-us">About Us</ListGroup.Item>
                                     <ListGroup.Item className="bg-transparent text-white border-0 p-0" as={Link} to="/our-security">Our Security</ListGroup.Item>
-                                    <ListGroup.Item className="bg-transparent text-white border-0 p-0" as={Link} to="">Careers</ListGroup.Item>
                                     <ListGroup.Item className="bg-transparent text-white border-0 p-0" as={Link} to="/contact-us">Contact Us</ListGroup.Item>
                                 </ListGroup>
                                 <h5 className="card-title text-white mb-4 mt-5">Privacy & Terms</h5>

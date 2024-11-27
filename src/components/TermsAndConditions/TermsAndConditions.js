@@ -29,7 +29,7 @@ function TermsAndConditions() {
                         </Col>
                         <Col xs={12} sm={12} md={12}>
                             <h2>Content</h2>
-                            <p>Our Service allows you to post, link, store, share and otherwise make available certain information, text, graphics, videos, or other material (“Content”). You are responsible for the appropriate use of this information, complying to all local, regional, and international laws as is reasonably expected.</p>
+                            <p>Our Service allows you to post, link, store, share and otherwise make available certain information, text, graphics, videos, or other material (“Content”). You are responsible for the appropriate use of this information, DCAAMing to all local, regional, and international laws as is reasonably expected.</p>
                         </Col>
                         <Col xs={12} sm={12} md={12}>
                             <h2>Links To Other Web Sites</h2>
