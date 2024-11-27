@@ -1,15 +1,6 @@
 
 /* Fida Marwat (Sr. UXUI and Front End Developer) */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet');
-
-body {
-  font-family: 'Roboto', sans-serif;
-  color: rgba(0, 0, 0, 0.9);
-  font-size: 16px;
-  line-height: 24px;
-}
-
 h1{
     font-family: 'Roboto', sans-serif;
     font-weight: 700 !important;
@@ -158,18 +149,5 @@ h6{
     margin-top: 100px;
 }
 
-/* placeholder color changes */
-
-input::-webkit-input-placeholder { 
-    color: rgba(0, 0, 0, 0.5) !important;
-  }
-  
-  input:-ms-input-placeholder { 
-    color: rgba(0, 0, 0, 0.5) !important;
-  }
-  
-  input::-ms-input-placeholder { 
-    color: rgba(0, 0, 0, 0.5) !important;
-  }
 
   
