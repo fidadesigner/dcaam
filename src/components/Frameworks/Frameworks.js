@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Button, Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './Frameworks.css'
 
 function Frameworks() {
@@ -30,7 +31,7 @@ function Frameworks() {
                                     <Card.Text>
                                     Close more deals and build customer trust by effectively proving your commitment to security.
                                     </Card.Text>
-                                    <Button variant="link" className="text-decoration-none">Learn More <i class="ri-arrow-right-line"></i></Button>
+                                    <Button variant="link" as={Link} target="_blank" to="https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2" className="text-decoration-none">Learn More <i class="ri-arrow-right-line"></i></Button>
                                 </Card.Body>
                             </Card>
                             <Card className="text-center rounded-0 border-top-0 w-25">
@@ -40,7 +41,7 @@ function Frameworks() {
                                     <Card.Text>
                                     Close more deals and build customer trust by effectively proving your commitment to security.
                                     </Card.Text>
-                                    <Button variant="link" className="text-decoration-none">Learn More <i class="ri-arrow-right-line"></i></Button>
+                                    <Button variant="link" as={Link} target="_blank" to="https://www.iso.org/standard/27001" className="text-decoration-none">Learn More <i class="ri-arrow-right-line"></i></Button>
                                 </Card.Body>
                             </Card>
                             <Card className="text-center rounded-0 border-top-0 w-25">
@@ -50,7 +51,7 @@ function Frameworks() {
                                     <Card.Text>
                                     Close more deals and build customer trust by effectively proving your commitment to security.
                                     </Card.Text>
-                                    <Button variant="link" className="text-decoration-none">Learn More <i class="ri-arrow-right-line"></i></Button>
+                                    <Button variant="link" as={Link} target="_blank" to="https://www.hhs.gov/hipaa/index.html" className="text-decoration-none">Learn More <i class="ri-arrow-right-line"></i></Button>
                                 </Card.Body>
                             </Card>
                             <Card className="text-center rounded-0 border-top-0 w-25">
@@ -60,7 +61,7 @@ function Frameworks() {
                                     <Card.Text>
                                     Close more deals and build customer trust by effectively proving your commitment to security.
                                     </Card.Text>
-                                    <Button variant="link" className="text-decoration-none">Learn More <i class="ri-arrow-right-line"></i></Button>
+                                    <Button variant="link" as={Link} target="_blank" to="https://commission.europa.eu/law/law-topic/data-protection/data-protection-eu_en" className="text-decoration-none">Learn More <i class="ri-arrow-right-line"></i></Button>
                                 </Card.Body>
                             </Card>
                             <Card className="text-center rounded-0 border-bottom-0 w-25">
@@ -70,7 +71,7 @@ function Frameworks() {
                                     <Card.Text>
                                     Close more deals and build customer trust by effectively proving your commitment to security.
                                     </Card.Text>
-                                    <Button variant="link" className="text-decoration-none">Learn More <i class="ri-arrow-right-line"></i></Button>
+                                    <Button variant="link" as={Link} target="_blank" to="https://www.pcisecuritystandards.org/" className="text-decoration-none">Learn More <i class="ri-arrow-right-line"></i></Button>
                                 </Card.Body>
                             </Card>
                             <Card className="text-center rounded-0 border-bottom-0 w-25">
@@ -80,7 +81,7 @@ function Frameworks() {
                                     <Card.Text>
                                     Close more deals and build customer trust by effectively proving your commitment to security.
                                     </Card.Text>
-                                    <Button variant="link" className="text-decoration-none">Learn More <i class="ri-arrow-right-line"></i></Button>
+                                    <Button variant="link" as={Link} target="_blank" to="https://www.nist.gov/cyberframework" className="text-decoration-none">Learn More <i class="ri-arrow-right-line"></i></Button>
                                 </Card.Body>
                             </Card>
                             <Card className="text-center rounded-0 border-bottom-0 w-25">
@@ -90,7 +91,7 @@ function Frameworks() {
                                     <Card.Text>
                                     Close more deals and build customer trust by effectively proving your commitment to security.
                                     </Card.Text>
-                                    <Button variant="link" className="text-decoration-none">Learn More <i class="ri-arrow-right-line"></i></Button>
+                                    <Button variant="link" as={Link} target="_blank" to="https://csrc.nist.gov/publications/sp800" className="text-decoration-none">Learn More <i class="ri-arrow-right-line"></i></Button>
                                 </Card.Body>
                             </Card>
                             <Card className="text-center rounded-0 border-bottom-0 w-25">
@@ -100,7 +101,7 @@ function Frameworks() {
                                     <Card.Text>
                                     Close more deals and build customer trust by effectively proving your commitment to security.
                                     </Card.Text>
-                                    <Button variant="link" className="text-decoration-none">Learn More <i class="ri-arrow-right-line"></i></Button>
+                                    <Button variant="link" as={Link} target="_blank" to="https://hitrustalliance.net/" className="text-decoration-none">Learn More <i class="ri-arrow-right-line"></i></Button>
                                 </Card.Body>
                             </Card>
                         </Col>

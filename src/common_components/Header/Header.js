@@ -220,7 +220,7 @@ function Header() {
                                         <Row>
                                             <Col md={3}>    
                                                 <p className="mb-2">
-                                                    <Link className="text-decoration-none custom-link" to="" onClick={handleLinkClick}>
+                                                    <Link className="text-decoration-none custom-link" target="_blank" to="https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2" onClick={handleLinkClick}>
                                                         <strong>SOC 2 Attestation</strong>
                                                     </Link>
                                                 </p>
@@ -228,7 +228,7 @@ function Header() {
                                             </Col>
                                             <Col md={3}>    
                                                 <p className="mb-2">
-                                                    <Link className="text-decoration-none custom-link" to="" onClick={handleLinkClick}>
+                                                    <Link className="text-decoration-none custom-link" target="_blank" to="https://commission.europa.eu/law/law-topic/data-protection/data-protection-eu_en" onClick={handleLinkClick}>
                                                         <strong>GDPR</strong>
                                                     </Link>
                                                 </p>
@@ -236,7 +236,7 @@ function Header() {
                                             </Col>
                                             <Col md={3}>    
                                                 <p className="mb-2">
-                                                    <Link className="text-decoration-none custom-link" to="" onClick={handleLinkClick}>
+                                                    <Link className="text-decoration-none custom-link" target="_blank" to="https://csrc.nist.gov/publications/sp800" onClick={handleLinkClick}>
                                                         <strong>NIST SP800-53</strong>
                                                     </Link>
                                                 </p>
@@ -244,7 +244,7 @@ function Header() {
                                             </Col>
                                             <Col md={3}>    
                                                 <p className="mb-2">
-                                                    <Link className="text-decoration-none custom-link" to="" onClick={handleLinkClick}>
+                                                    <Link className="text-decoration-none custom-link" target="_blank" to="https://www.iso.org/standard/27001" onClick={handleLinkClick}>
                                                         <strong>ISO 27001</strong>
                                                     </Link>
                                                 </p>
@@ -254,7 +254,7 @@ function Header() {
                                         <Row className="mt-2">
                                             <Col md={3}>    
                                                 <p className="mb-2">
-                                                    <Link className="text-decoration-none custom-link" to="" onClick={handleLinkClick}>
+                                                    <Link className="text-decoration-none custom-link" target="_blank" to="https://www.pcisecuritystandards.org/" onClick={handleLinkClick}>
                                                         <strong>PCI</strong>
                                                     </Link>
                                                 </p>
@@ -262,7 +262,7 @@ function Header() {
                                             </Col>
                                             <Col md={3}>    
                                                 <p className="mb-2">
-                                                    <Link className="text-decoration-none custom-link" to="" onClick={handleLinkClick}>
+                                                    <Link className="text-decoration-none custom-link" target="_blank" to="https://www.mas.gov.sg/" onClick={handleLinkClick}>
                                                         <strong>MAS</strong>
                                                     </Link>
                                                 </p>
@@ -270,7 +270,7 @@ function Header() {
                                             </Col>
                                             <Col md={3}>    
                                                 <p className="mb-2">
-                                                    <Link className="text-decoration-none custom-link" to="" onClick={handleLinkClick}>
+                                                    <Link className="text-decoration-none custom-link" target="_blank" to="https://hitrustalliance.net/" onClick={handleLinkClick}>
                                                         <strong>HIPAA</strong>
                                                     </Link>
                                                 </p>
@@ -278,7 +278,7 @@ function Header() {
                                             </Col>
                                             <Col md={3}>    
                                                 <p className="mb-2">
-                                                    <Link className="text-decoration-none custom-link" to="" onClick={handleLinkClick}>
+                                                    <Link className="text-decoration-none custom-link" target="_blank" to="https://www.nist.gov/cyberframeworks" onClick={handleLinkClick}>
                                                         <strong>NIST CSF</strong>
                                                     </Link>
                                                 </p>
@@ -394,7 +394,7 @@ function Header() {
                                             <Col md={12}>
                                                 <h5 className="card-title mb-4 text-primary">Company</h5>
                                             </Col>
-                                            <Col md={3}>    
+                                            <Col md={4}>    
                                                 <p className="mb-2">
                                                     <Link className="text-decoration-none custom-link" to="/about-us" onClick={handleLinkClick}>
                                                         <strong>About Us</strong>
@@ -402,7 +402,7 @@ function Header() {
                                                 </p>
                                                 <p>Our mission and purpose are unique, just like the solution we created.</p>
                                             </Col>
-                                            <Col md={3}>    
+                                            <Col md={4}>    
                                                 <p className="mb-2">
                                                     <Link className="text-decoration-none custom-link" to="/our-security" onClick={handleLinkClick}>
                                                         <strong>Our Security</strong>
@@ -410,15 +410,7 @@ function Header() {
                                                 </p>
                                                 <p>We are very serious about our security. See the measures we take.</p>
                                             </Col>
-                                            <Col md={3}>    
-                                                <p className="mb-2">
-                                                    <Link className="text-decoration-none custom-link" to="" onClick={handleLinkClick}>
-                                                        <strong>Careers</strong>
-                                                    </Link>
-                                                </p>
-                                                <p>Join our diverse team of intelligent, respectful, and passionate individuals.</p>
-                                            </Col>
-                                            <Col md={3}>    
+                                            <Col md={4}>    
                                                 <p className="mb-2">
                                                     <Link className="text-decoration-none custom-link" to="/contact-us" onClick={handleLinkClick}>
                                                         <strong>Contact Us</strong>
